@@ -7,18 +7,18 @@
 
 // -------------setInterval------------
 
-function printNumbers(from, to) {
-  let time = from;
+// function printNumbers(from, to) {
+//   let time = from;
 
-  let timer = setInterval(function () {
-    alert(time);
-    if (time == to) {
-      clearInterval(timer);
-    }
-    time++;
-  }, 1000);
-}
-printNumbers(1, 5);
+//   let timer = setInterval(function () {
+//     alert(time);
+//     if (time == to) {
+//       clearInterval(timer);
+//     }
+//     time++;
+//   }, 1000);
+// }
+// printNumbers(1, 5);
 
 // ------------- setTimeout------------
 
